@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58.014" height="51.924" viewBox="0 0 58.014 51.924">
+  <g id="cement_truck" data-name="cement truck" transform="translate(-2.974 -2.403)">
+    <circle id="Ellipse_406" data-name="Ellipse 406" cx="5.31" cy="5.31" r="5.31" transform="translate(10.736 42.708)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle id="Ellipse_407" data-name="Ellipse 407" cx="5.31" cy="5.31" r="5.31" transform="translate(42.71 42.708)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_3812" data-name="Path 3812" d="M10.736,48.017H3.974V39.995H59.988v1.364a6.658,6.658,0,0,1-6.658,6.658h0" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_109" data-name="Line 109" x2="21.354" transform="translate(21.356 48.017)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_3813" data-name="Path 3813" d="M59.988,39.995V30.051a14.048,14.048,0,0,0-4.116-9.936h0A14.05,14.05,0,0,0,45.937,16h0a3.226,3.226,0,0,0-3.227,3.226V39.995Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_3814" data-name="Path 3814" d="M51.757,17.264V30.09h8.231" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_3815" data-name="Path 3815" d="M30.215,28.474l8.626-14.851L28.622,3.4l-14.775,8.7" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_110" data-name="Line 110" x1="12.35" y2="7.28" transform="translate(17.87 28.47)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_3816" data-name="Path 3816" d="M13.45,35.19,5.22,26.96l8.63-14.85" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <line id="Line_111" data-name="Line 111" x2="19.217" y2="19.217" transform="translate(12.436 10.695)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_3817" data-name="Path 3817" d="M18.27,37.18a2.82,2.82,0,0,1-5.64,0,2.817,2.817,0,0,1,2.82-2.82,2.786,2.786,0,0,1,2.42,1.39A2.7,2.7,0,0,1,18.27,37.18Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

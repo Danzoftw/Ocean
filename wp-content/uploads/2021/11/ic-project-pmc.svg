@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_35000" data-name="Group 35000" transform="translate(-5435 848)">
+    <circle id="Ellipse_470" data-name="Ellipse 470" cx="12" cy="12" r="12" transform="translate(5435 -848)" fill="none"/>
+    <path id="helmet" d="M1.714,15.923H7.425m3.569,0H16.7m-14.991,0A.714.714,0,0,0,1,16.637v1.785a.714.714,0,0,0,.714.714H16.7a.714.714,0,0,0,.714-.714V16.637a.714.714,0,0,0-.714-.714m-5.711,0H7.425m0-7.273v7.273m3.569,0V8.65m0,0V7.714A.714.714,0,0,0,10.28,7H8.139a.714.714,0,0,0-.714.714V8.65m9.28,7.273A7.492,7.492,0,0,0,10.994,8.65m-3.569,0a7.492,7.492,0,0,0-5.711,7.273" transform="translate(5437.791 -851.586)" fill="none" stroke="#505050" stroke-linejoin="round" stroke-width="0.8"/>
+  </g>
+</svg>

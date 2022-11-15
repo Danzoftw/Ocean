@@ -1,0 +1,378 @@
+div.main-contracting-section {
+  padding-top: 57px;
+}
+section.contracting .title p::after {
+  content: '';
+  position: absolute;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid #505050;
+}
+section.contracting .bg-image {
+  background-image: url("../images/bg-texture.png");
+  z-index: -10;
+}
+section.contracting .contracting-elements {
+  z-index: 200;
+  left: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  section.contracting .contracting-elements {
+    top: 20%;
+  }
+}
+section.contracting .contracting-elements .menu-section li:not(:first-child) {
+  display: none;
+}
+section.contracting .contracting-elements .menu-section li a {
+  display: none;
+}
+section.contracting .contracting-elements .menu-section .sub-menu {
+  margin: 0 auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+@media (min-width: 992px) {
+  section.contracting .contracting-elements .menu-section .sub-menu {
+    flex-direction: row;
+  }
+}
+section.contracting .contracting-elements .menu-section .sub-menu:parent {
+  display: none;
+}
+section.contracting .contracting-elements .menu-section .sub-menu .current-menu-item {
+  background-color: #FFFFFF !important;
+}
+section.contracting .contracting-elements .menu-section .sub-menu .current-menu-item a {
+  color: #505050 !important;
+}
+section.contracting .contracting-elements .menu-section .sub-menu .menu-item {
+  text-align: center;
+  background-color: #1D1D1DB3;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #1D1D1D;
+}
+@media (min-width: 576px) {
+  section.contracting .contracting-elements .menu-section .sub-menu .menu-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+section.contracting .contracting-elements .menu-section .sub-menu li {
+  position: relative;
+  width: 100%;
+  padding: 26px;
+  display: block !important;
+}
+section.contracting .contracting-elements .menu-section .sub-menu li a {
+  line-height: 1.625rem;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 12px;
+}
+@media (min-width: 992px) {
+  section.contracting .contracting-elements .menu-section .sub-menu li a {
+    padding: 14px;
+  }
+}
+section.contracting .contracting-elements .menu-section .sub-menu li:nth-child(n) a {
+  display: inline-block !important;
+  font-size: 0.813rem;
+  font-family: 'Octopus';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+@media (min-width: 992px) {
+  section.contracting .contracting-elements .menu-section .sub-menu li:nth-child(n) a {
+    font-size: 0.875rem;
+  }
+}
+@media (min-width: 576px) {
+  section.contracting .contracting-elements .menu-section.real-estate-menu-section .sub-menu {
+    flex-direction: row-reverse;
+  }
+}
+@media (min-width: 992px) {
+  section.contracting .contracting-elements.realestate-elements .sub-menu {
+    flex-direction: row-reverse;
+  }
+}
+@media (min-width: 768px) {
+  section.contracting.construction-tabs .contracting-elements {
+    top: 50%;
+  }
+}
+section.contracting.construction-tabs .bg-image {
+  background-image: unset;
+  z-index: -10;
+}
+section.contracting.real-estate-contracting .contracting-elements {
+  top: 20%;
+}
+section.civil-construction .outer-image {
+  height: 350px;
+}
+@media (min-width: 576px) {
+  section.civil-construction .outer-image {
+    height: 350px;
+  }
+}
+@media (min-width: 992px) {
+  section.civil-construction .outer-image {
+    height: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  section.civil-construction .outer-image {
+    height: 600px;
+  }
+}
+section.civil-construction .outer-image img {
+  height: 100%;
+  object-fit: cover;
+}
+section.civil-construction.construction-tabs {
+  height: 350px;
+}
+@media (min-width: 576px) {
+  section.civil-construction.construction-tabs {
+    height: 200px;
+  }
+}
+section.civil-construction-content .bg-image {
+  background-image: url("../images/bg-texture.png");
+  z-index: -10;
+}
+section.civil-construction-content .content p {
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+}
+section.project-showcase .images-container .image-inner {
+  width: 20%;
+  height: 350px;
+  cursor: pointer;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+section.project-showcase .images-container .image-inner img {
+  background: url("../images/custom-packaging.svg");
+  background-size: 400px;
+  object-fit: cover;
+}
+section.project-showcase .images-container .image-inner .title {
+  bottom: 30px;
+  left: 20px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+section.project-showcase .images-container .image-inner:hover .title {
+  opacity: 0;
+}
+section.project-showcase .images-container .image-inner .image-outer {
+  z-index: -1;
+}
+section.project-showcase .images-container.images-container-mobile .image-inner-mobile {
+  width: 100%;
+  height: 100%;
+}
+section.project-showcase .images-container.images-container-mobile .image-inner-mobile:nth-child(even) .mobile-title {
+  background-color: #636C74;
+}
+section.project-showcase .images-container.images-container-mobile .image-inner-mobile:nth-child(odd) .mobile-title {
+  background-color: #505050;
+}
+section.project-showcase .showcase-slick .image-container .image-overlay {
+  height: 135px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+section.project-showcase .showcase-slick .image {
+  position: absolute;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+section.project-showcase .showcase-slick .slick-prev {
+  background-color: transparent;
+  border: 0;
+  display: none !important;
+  content: '';
+  position: absolute;
+  background-image: url("../images/ic-slider-arrow-left-white.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10;
+  bottom: 25px;
+  padding: 20px;
+  right: 200px;
+  font-size: 0px;
+}
+@media (min-width: 576px) {
+  section.project-showcase .showcase-slick .slick-prev {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 1024px) {
+  section.project-showcase .showcase-slick .slick-prev {
+    bottom: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  section.project-showcase .showcase-slick .slick-prev {
+    padding: 30px;
+    bottom: 42px;
+  }
+}
+section.project-showcase .showcase-slick .slick-next {
+  background-color: transparent;
+  border: 0;
+  display: none !important;
+  content: '';
+  position: absolute;
+  background-image: url("../images/ic-slider-arrow-right-white.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10;
+  bottom: 25px;
+  padding: 20px;
+  right: 90px;
+  font-size: 0px;
+}
+@media (min-width: 576px) {
+  section.project-showcase .showcase-slick .slick-next {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 1024px) {
+  section.project-showcase .showcase-slick .slick-next {
+    bottom: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  section.project-showcase .showcase-slick .slick-next {
+    padding: 30px;
+    bottom: 42px;
+  }
+}
+section.project-showcase .showcase-slick img {
+  height: 170px !important;
+  object-fit: cover;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  section.project-showcase .showcase-slick img {
+    height: 240px !important;
+  }
+}
+@media (min-width: 768px) {
+  section.project-showcase .showcase-slick img {
+    height: 300px !important;
+  }
+}
+@media (min-width: 1024px) {
+  section.project-showcase .showcase-slick img {
+    height: 400px !important;
+  }
+}
+@media (min-width: 1200px) {
+  section.project-showcase .showcase-slick img {
+    height: 500px !important;
+  }
+}
+@media (min-width: 1440px) {
+  section.project-showcase .showcase-slick img {
+    height: 600px !important;
+  }
+}
+section.project-showcase .showcase-slick .title {
+  bottom: 20px;
+  left: 60px;
+}
+@media (min-width: 1024px) {
+  section.project-showcase .showcase-slick .title {
+    bottom: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  section.project-showcase .showcase-slick .title {
+    bottom: 40px;
+  }
+}
+section.project-showcase .image-container .image-text {
+  bottom: 30px;
+  left: 20px;
+}
+@media (min-width: 576px) {
+  section.project-showcase .image-container .image-text {
+    bottom: 50px;
+    left: 85px;
+  }
+}
+section.project-showcase .outer-btn .image {
+  right: 10px;
+}
+section.project-showcase .gradiant-bg {
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+@media (min-width: 576px) {
+  section.project-showcase .gradiant-bg {
+    height: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  section.project-showcase .gradiant-bg {
+    height: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  section.project-showcase .gradiant-bg {
+    height: 140px;
+  }
+}
+section.cccp .bg-image {
+  background-image: url("../images/bg-texture.png");
+  z-index: -10;
+}
+section.cccp .image {
+  max-width: 300px;
+}
+@media (max-width: 576px) {
+  section.cccp .image {
+    max-width: 375px;
+  }
+}
+section.cccp .content p {
+  display: inline-block;
+  color: #FFA62C;
+}
+section.cccp .content span {
+  display: inline-block;
+  color: #1D2126;
+}
+section.cccp .contracting-elements .sub-menu {
+  padding: 0;
+}
+section.cccp .contracting-elements .sub-menu li {
+  text-align: center;
+  width: 100%;
+}

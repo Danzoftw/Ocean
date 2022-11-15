@@ -1,0 +1,32 @@
+#myProgress {
+    .loader-wrapper{
+        max-width: 200px;
+        @media(min-width: 576px){
+            max-width: 400px;
+        }
+        width: 100%;
+        .loader-width{
+            height: 2px;
+        }
+        .loader-text{
+            background-color: transparent;
+        }
+    }
+    #myBar {
+        width: 1%;
+        transition: 3s all ease;
+        &.half-width{
+            width: 50%;
+        }
+        &.full-width{
+            transition: .5s all ease;
+            width: 100%;
+        }
+    }
+    &.remove-overlay{
+        opacity: 0;
+        transition: 3s all ease;
+        z-index: -1;
+        height: 0.1px !important;
+    }
+}

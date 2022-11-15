@@ -1,0 +1,89 @@
+section.clients{
+    .image-container{
+        .my-custom-slider{
+            .slick-prev{
+                top: -95px;
+                outline: none;
+                font-size: 0px;
+                position: absolute;
+                z-index: 10;
+                left: unset;
+                padding: 19px;
+                border: none;
+                border-radius: 50%;
+                display: none !important;
+                @media(min-width: 768px){
+                    display: block !important;
+                }
+                @media(min-width: 1024px){
+                    top: -104px;
+                }
+                &:after{
+                    content: '';
+                    position: absolute;
+                    background-image: url('../images/ic-slider-arrow-left.svg');
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+            .slick-next{
+                top: -95px;
+                outline: none;
+                font-size: 0px;
+                position: absolute;
+                z-index: 10;
+                left: unset;
+                padding: 19px;
+                border: none;
+                border-radius: 50%;
+                display: none !important;
+                @media(min-width: 768px){
+                    display: block !important;
+                }
+                @media(min-width: 1024px){
+                    top: -104px;
+                }
+                &:after{
+                    content: '';
+                    position: absolute;
+                    background-image: url('../images/ic-slider-arrow-right.svg');
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+            img{
+                max-width: 60px;
+                @media(min-width: 768px){
+                    max-width: 85px;
+                }
+            }
+        }
+    }
+}
+section.leading-associations{
+    .leading-architects{
+        p{
+            &:before{
+                content: '';
+                position: absolute;
+                width: 11px;
+                height: 11px;
+                background-color: #505050;
+                border-radius: 50%;
+                left: -5px;
+                top: 48%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}

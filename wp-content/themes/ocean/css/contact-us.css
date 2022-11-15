@@ -1,0 +1,113 @@
+.contact-us-form .content {
+  top: 55px;
+  left: 59%;
+  transform: translateX(-50%);
+  width: 60%;
+}
+@media (min-width: 576px) {
+  .contact-us-form .content {
+    top: 80px;
+  }
+}
+@media (min-width: 768px) {
+  .contact-us-form .content {
+    top: 55px;
+    width: 65%;
+  }
+}
+@media (min-width: 991px) {
+  .contact-us-form .content {
+    top: 65px;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-us-form .content {
+    top: 80px;
+    width: 50%;
+  }
+}
+@media (min-width: 1440px) {
+  .contact-us-form .content {
+    top: 100px;
+  }
+}
+.contact-us-form .content .title {
+  padding-bottom: 55px;
+}
+@media (min-width: 425px) {
+  .contact-us-form .content .title {
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .contact-us-form .content .title {
+    padding-bottom: 75px;
+  }
+}
+@media (min-width: 991px) {
+  .contact-us-form .content .title {
+    padding-bottom: 115px;
+  }
+}
+@media (min-width: 1440px) {
+  .contact-us-form .content .title {
+    padding-bottom: 160px;
+  }
+}
+@media (min-width: 991px) {
+  .contact-us-form .frm_forms {
+    padding-left: 50px;
+    padding-right: 130px;
+  }
+}
+.contact-us-form .frm_forms .form-field {
+  padding-left: 10px;
+}
+.contact-us-form .frm_forms label {
+  color: #505050;
+  font-family: 'Octopus';
+  font-weight: 300;
+}
+.contact-us-form .frm_forms input {
+  font-family: 'Octopus';
+  font-weight: 300;
+  color: #E0E5EB;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1.5px solid #505050;
+  border-radius: unset;
+  padding-left: 0;
+}
+.contact-us-form .frm_forms input:focus {
+  box-shadow: unset !important;
+}
+.contact-us-form .frm_forms textarea {
+  border: 0;
+  outline: unset;
+  box-shadow: unset;
+  border-bottom: 1px solid #505050;
+  height: 10px;
+  padding-bottom: 35px;
+  border-radius: unset;
+  padding-left: 0px;
+}
+section.contact-network .contact-network-sub-container {
+  z-index: 10;
+}
+section.contact-network .contact-network-sub-container .bg-image {
+  background-image: url('../images/bg-texture.png');
+  z-index: -10;
+}
+.contact-address .contact-address-sub-container .contact-address-overlay {
+  z-index: -2;
+}
+.contact-address .contact-address-sub-container .col-5 {
+  display: inline;
+}
+section.google-map .map iframe {
+  visibility: visible !important;
+}
+section.google-map .map a {
+  display: none;
+}

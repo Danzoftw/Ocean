@@ -1,0 +1,37 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 214.9 241.3" style="enable-background:new 0 0 214.9 241.3;" xml:space="preserve">
+<style type="text/css">
+	#Layer_1 .st0{opacity:0.349;fill:#939393;enable-background:new    ;}
+	#Layer_1 .st1{fill:none;stroke:#8B8686;stroke-width:0.444;stroke-miterlimit:10;}
+</style>
+<g class="square">
+	<path id="square" class="st0" d="M214.9,0v74.7h-74.7V0H214.9z"/>
+</g>
+<g class="tryangle">
+	<path id="tryangle" class="st0" d="M214.9,0v74.7l-37.3-37.4L140.1,0H214.9z"/>
+</g>
+
+<g class="Grid">
+	<g id="Grid" transform="translate(129.928 -789.452)">
+		<line id="Line_59" class="st1" x1="-105.4" y1="789.5" x2="-105.4" y2="1030.7"/>
+		<line id="Line_60" class="st1" x1="-85.5" y1="789.5" x2="-85.5" y2="1030.7"/>
+		<line id="Line_61" class="st1" x1="-67.5" y1="789.5" x2="-67.5" y2="1030.7"/>
+		<line id="Line_62" class="st1" x1="-49.5" y1="789.5" x2="-49.5" y2="1030.7"/>
+		<line id="Line_63" class="st1" x1="-31.5" y1="789.5" x2="-31.5" y2="1030.7"/>
+		<line id="Line_64" class="st1" x1="-13.5" y1="789.5" x2="-13.5" y2="1030.7"/>
+		<line id="Line_65" class="st1" x1="4.5" y1="789.5" x2="4.5" y2="1030.7"/>
+		<line id="Line_66" class="st1" x1="22.5" y1="789.5" x2="22.5" y2="1030.7"/>
+		<line id="Line_67" class="st1" x1="40.5" y1="789.5" x2="40.5" y2="1030.7"/>
+		<line id="Line_68" class="st1" x1="60.4" y1="789.5" x2="60.4" y2="1030.7"/>
+		<line id="Line_69" class="st1" x1="85" y1="839.4" x2="-129.9" y2="839.4"/>
+		<line id="Line_70" class="st1" x1="85" y1="859.6" x2="-129.9" y2="859.6"/>
+		<line id="Line_71" class="st1" x1="85" y1="879.8" x2="-129.9" y2="879.8"/>
+		<line id="Line_72" class="st1" x1="85" y1="900" x2="-129.9" y2="900"/>
+		<line id="Line_73" class="st1" x1="85" y1="920.2" x2="-129.9" y2="920.2"/>
+		<line id="Line_74" class="st1" x1="85" y1="940.4" x2="-129.9" y2="940.4"/>
+		<line id="Line_75" class="st1" x1="85" y1="960.6" x2="-129.9" y2="960.6"/>
+		<line id="Line_76" class="st1" x1="85" y1="980.8" x2="-129.9" y2="980.8"/>
+		<line id="Line_77" class="st1" x1="85" y1="1006.2" x2="-129.9" y2="1006.2"/>
+	</g>
+</g>
+</svg>

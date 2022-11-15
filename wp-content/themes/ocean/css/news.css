@@ -1,0 +1,87 @@
+div.news-wrapper .news-videos .left-background {
+  width: 58.33333333%;
+  background-image: url('../images/bg-texture.png');
+}
+div.news-wrapper .news-videos .right-background {
+  width: 41.66666667%;
+  background-image: url('../images/bg-texture.png');
+}
+div.news-wrapper .news-videos .right-bg-overlay {
+  width: 41.66666667%;
+  background-color: rgba(0, 0, 0, 0.12);
+  z-index: 20;
+}
+div.news-wrapper .news-videos .main-posts {
+  border-bottom: 1px solid #D9D9D9;
+}
+div.news-wrapper .news-videos .video-container {
+  max-width: 350px;
+}
+div.news-wrapper .news-videos .video-container .embed-container {
+  padding-top: 50px;
+}
+div.news-wrapper .news-videos .video-container .embed-container iframe {
+  width: 100%;
+}
+div.news-wrapper .news-videos .video-container .embed-container:nth-of-type(2) {
+  padding-top: 0px;
+}
+div.news-wrapper .news-container .custom-select {
+  flex-wrap: wrap;
+}
+@media (min-width: 576px) {
+  div.news-wrapper .news-container .custom-select {
+    flex-wrap: initial;
+  }
+}
+div.news-wrapper .news-container .custom-select .custom-label {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  div.news-wrapper .news-container .custom-select .custom-label {
+    width: initial;
+  }
+}
+div.news-wrapper .news-container .custom-select label {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  div.news-wrapper .news-container .custom-select label {
+    width: 260px;
+  }
+}
+div.news-wrapper .news-container .custom-select label button {
+  background-color: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  padding: 15px 65px 14px 24px;
+}
+div.news-wrapper .news-container .custom-select label button:after {
+  transition: 0.5s all ease;
+  content: '<';
+  font: 16px "Consolas", monospace;
+  color: #aaa;
+  transform: rotate3d(1, -1, 0, 170deg);
+  right: 10px;
+  border-bottom: 1px solid #ddd;
+  position: absolute;
+  pointer-events: none;
+}
+div.news-wrapper .news-container .custom-select label button:hover:after {
+  transform: rotate3d(-1, 0, -6, 270deg);
+}
+div.news-wrapper .news-container .custom-select label ul {
+  transition: 0.5s all ease;
+  background-color: #9F9F9F;
+}
+div.news-wrapper .news-container .custom-select label ul li {
+  padding: 4px 0px 4px 24px;
+  color: #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+div.news-wrapper .news-container .main-posts {
+  max-width: 620px;
+}
+div.news-wrapper.projects-wrapper .custom-select label button {
+  padding: unset;
+  width: 260px;
+}
